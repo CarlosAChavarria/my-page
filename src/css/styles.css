@@ -1,0 +1,84 @@
+@import url('./programacion.css');
+/* principalHeader */
+
+.principalHeader{
+    background-color: rgb(6, 6, 110);
+    color: white;
+}
+.principalHeader h1{
+    font-family: 'Lobster', cursive;
+    padding: 5%;
+    text-align: center;
+}
+.principalHeader h6{
+    text-align: justify;
+}
+.principalHeader img{
+    border-radius: 15px;
+}
+.logosTecnologias{
+    max-width: 100px;
+}
+
+/* stack */
+.stack{
+    margin: 10px;
+}
+.stack h2{
+    text-align: center;
+    padding: 15px;
+}
+
+/* formacion */
+.formacion{
+    margin-top: 50px;
+}
+.formacion h2{
+    text-align: center;
+}
+
+/* ---- experiencia ---- */
+.experiencia{
+    margin-top: 50px;
+}
+.experiencia h2{
+    text-align: center;
+}
+
+/* tesis */
+
+.modal-container.active{
+    position: fixed;
+    width: 50vw;
+    height: 100vh;
+    display: flex;  
+    top: 0;
+    left: 25%;
+    overflow-y: scroll;
+}
+
+.modal-container img{
+    z-index: 1;
+}
+
+.modal-container.active::after{
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.6);
+    z-index: 0;
+}
+
+/* ---- footer ---- */
+footer{
+    margin-top: auto;
+    background-color: black;
+}
+
+.fsizeImage{
+    width: 30px;
+    margin: 0 10px;
+}
