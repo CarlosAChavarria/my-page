@@ -1,0 +1,30 @@
+.bodyProyectos{
+    background-color: white;
+}
+
+.gemas{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.gemas img{
+    width: 50px;
+}
+.gemas a:nth-child(1):hover{
+    transition-duration: 2s; 
+    transform: scale(1.7) rotateY(180deg); 
+}
+.gemas a:nth-child(2):hover{
+    animation-name: gemaCss;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes gemaCss{
+    from{transform: scale(0) rotate3d(1,1,1,0deg);}
+    to{transform: scale(1.7) rotate3d(1,1,1,360deg);}
+}
+
+/* contenido */
+.enlaceGit{
+    width: 50px;
+}

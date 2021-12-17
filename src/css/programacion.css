@@ -1,3 +1,22 @@
 .bodyProgramacion{
     background-color: rgb(161, 52, 52);
 }
+.bodyProgramacion hr{
+    border: 3px solid white;
+}
+
+.indice{
+    border-right: 2px solid white;
+}
+
+.contenido{
+    color: black;
+}
+.contenido h3{
+    color: white;
+}
+.temas{
+    background-color: rgba(196, 141, 141, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}

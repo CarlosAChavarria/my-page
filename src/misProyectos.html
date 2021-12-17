@@ -15,7 +15,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     </head>
-    <body>
+    <body class="bodyProyectos">
         <header>
             <!-- navbar -->
             <nav class="navbar navbar-dark bg-dark">
@@ -30,12 +30,54 @@
                   <a class="navbar-brand">tecnologia</a>
                 </div>
             </nav>
-            <h1>Recursos Programación</h1>
+            <h1>Proyectos, ideas, códigos y mas...</h1>
         </header>
 
         <main>
-            
+          <!-- menu stack - gemas del infinito -->
+          <section>
+            <div class="container gemas d-flex justify-content-around">
+              <!-- <img src="/src/assets/images/logos/react.png" alt="react"> -->
+              <!-- <img src="/src/assets/images/logos/css3.png" alt="css3">               -->
+              
+              <a href="#react"> <img src="/src/assets/images/logos/react.png" alt="react"> </a>
+              <a href="css"> <img src="/src/assets/images/logos/css3.png" alt="css3"> </a>
+            </div>
+          </section>
+
+          <br>
+
+          <!-- contenido -->
+          <section>
+            <div class="row mx-3">
+              <div class="col-2">
+                <h2>Contenido</h2>
+              </div>
+              <div class="col-10">
+                <!-- react -->
+                <section id="react">
+                  <h2>REACT</h2>
+                  <hr>
+                  <!-- contenido -->
+                  <div class="row">
+                    <div class="col-2">
+                      <h4 id="memeCreator">Meme Creator</h4>
+                      <a href="https://github.com/CarlosAChavarria/react-meme-creator" target="_blank">
+                        <img src="/src/assets/images/logos/github.png" alt="github" class="enlaceGit">
+                      </a>
+                    </div>
+                    <div class="col-10">
+                      <h6>Descripción:</h6>
+                      <p>App basada en React para crear memes, brinda la opción de escribir texto en la parte superior e inferior de la imagen</p>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </section>
         </main>
+
+        <br/>
 
         <footer>
             <div class="container-fluid">
@@ -57,5 +99,9 @@
               </div>
             </div>
         </footer>
+
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     </body>
 </html>
